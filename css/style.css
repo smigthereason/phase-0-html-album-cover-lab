@@ -23,47 +23,55 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#131313',GradientType=0 ); /* IE6-8 */
   font-family: 'Avenir Next Condensed', 'Arial Narrow', sans-serif;
   font-size: 100%;
+  border: 30px solid black;
+  
 }
 
-h1 {
-  font-size: 12.25em;
-  line-height: 1em;
+h4 {
+  font-weight: normal;
+  font-size: x-small;
+  line-height: 2em;
   letter-spacing: .03em;
   margin-bottom: 2px;
+  letter-spacing: .4em;
 }
 
 h2 {
-  font-size: 5.1em;
+  font-size: 4.1em;
   line-height: 1em;
   letter-spacing: .03em;
   margin-bottom: 2px;
 }
 
 h3 {
-  font-weight: normal;
-  letter-spacing: .3em;
-  margin-bottom: 18px;
+  font-weight: lighter;
+  font-size: small;
+  letter-spacing: .5em;
+  margin-bottom: 2px;
   line-height: 1em;
+  padding: 5px;
 }
 
-h4 {
-  font-weight: normal;
-  font-size: .7em;
-  letter-spacing: .4em;
-  margin-bottom: 9px;
+h1 {
+  font-weight: bolder;
+  font-size: 6.7em;
+  letter-spacing: .04em;
+  margin-bottom: 18px;
   line-height: 1em;
+  padding: 5px;
 }
 
 p {
-  font-size: .9em;
+  font-size: .7em;
   line-height: 1.8em;
   letter-spacing: .103em;
   margin-bottom: 15px;
+  padding: 5px;
 }
 
 span {
   display: inline-block;
-  font-size: 1em;
+  font-size: small;
   line-height: 1em;
   letter-spacing: .35em;
   vertical-align: top;
@@ -78,7 +86,7 @@ img {
 .wrapper {
   width: 800px;
   margin: 0 auto;
-  /*background: url("https://s3.amazonaws.com/learn-verified/MOCKUP.jpg");*/
+  /*background: url("https://s3.amazonaws.com/learn-verified/MOCKUP.jpg")*/;
 }
 
 .album {
